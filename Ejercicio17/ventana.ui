@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ventana</class>
+ <widget class="QWidget" name="Ventana">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>320</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Ventana</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="Boton" name="boton1"/>
+   </item>
+   <item>
+    <widget class="Boton" name="boton2"/>
+   </item>
+   <item>
+    <widget class="Boton" name="boton3"/>
+   </item>
+   <item>
+    <widget class="Boton" name="boton4"/>
+   </item>
+   <item>
+    <widget class="Boton" name="boton5"/>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Boton</class>
+   <extends>QWidget</extends>
+   <header>boton.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
